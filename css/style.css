@@ -41,6 +41,17 @@ a:hover, a:focus {
 ul, ol {
 	list-style: none;
 }
+table {
+	padding: 4px;
+	width: 100%;
+}
+tr {
+	border: 1px solid black;
+	padding: 12px;
+}
+td {
+	padding: 12px;	
+}
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -533,3 +544,65 @@ color: #777;
 #footer a:hover {
 	color: #ccc;
 }
+/*Privacy Policy*/
+#privacy {
+	padding: 80px;
+	background: #f6f6f6;
+}
+#privacy h5 {
+	text-transform: capitalize;
+	font-weight: 700;
+	line-height: 20px;
+	padding-bottom: 50px;
+}
+
+#privacy p {
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+#privacy li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#privacy .headingText {
+	padding-top: 20px;
+	font-size: 22px;
+	padding-bottom: 20px;
+}
+#privacy h4 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #333;
+}
+#privacy .section {
+	padding-top: 60px;
+}
+
+.email-signature {
+      margin: 0 auto;
+      padding: 10px;
+    }
+    
+    .email-signature img {
+      display: block;
+      width: 120px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    
+    .name {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .title {
+      font-style: italic;
+      margin-bottom: 5px;
+    }
+    .contact-info {
+      margin-bottom: 10px;
+    }
+    .contact-info span {
+      display: inline-block;
+      margin-right: 10px;
+    }
