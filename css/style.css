@@ -578,6 +578,10 @@ color: #777;
 #privacy .section {
 	padding-top: 60px;
 }
+#pagenotfound {
+	padding: 100px 0;
+	background: #F6F6F6;
+}
 
 .email-signature {
       margin: 0 auto;
